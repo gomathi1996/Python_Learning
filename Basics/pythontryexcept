@@ -1,0 +1,8 @@
+try:
+    # val = 100/0
+    num = int(input("Enter number : "))
+    print(num)
+except ZeroDivisionError:
+    print("Dividing by 0")    
+except ValueError:
+    print("Invalid Input")

@@ -114,6 +114,105 @@ Multiple line comment
 second line
 Third Line
 ``` 
+# Try Except Statement
+enables applications to gain control of a program when events that normally terminate execution occur
 
+used to catch and handle exceptions. Python executes code following the try statement as a “normal” part of the program. The code that follows the except statement is the program’s response to any exceptions in the preceding try clause.
 
+```python
+try:
+    num = int(input("Enter number : "))
+    print(num)
+except:
+    print("Invalid Input")
+```
+# Files
 
+1. Open and close the files
+
+r - read mode
+w - write mode (Flush all the existing value and keep only the new value)
+a - append mode (Add the new value along with existing values)
+r+ - read and write
+
+# Modules
+
+Write common functions in a module and import it wherever required
+
+```python
+# Method 1
+import commonmodule
+commonmodule.print_captain()
+commonmodule.print_vice_captain()
+
+# Method 2
+from commonmodule import print_captain
+print_captain()
+
+# Method 3
+from commonmodule import print_captain as pc
+pc()
+```
+
+# Classess and Objects
+
+Classes provide a means of bundling data and functionality together. Creating a new class creates a new type of object, allowing new instances of that type to be made. Each class instance can have attributes attached to it for maintaining its state.
+
+class should below function
+
+```python
+class Batsman:
+
+# this is the default function and should be created in all the class and it should have self as parameters
+
+    def __init__(self,name,age,ipl_team):
+        self.name = name
+        self.age = age
+        self.ipl_team = ipl_team
+```
+
+### Object Creation
+
+```python
+Batsman1 = Batsman("virat",32,"RCB")
+Batsman2 = Batsman("Dhoni",45,"CSK")
+```
+
+# Inheritance
+allows us to define a class that inherits all the methods and properties from another class. 
+Parent class is the class being inherited from, also called base class. Child class is the class that inherits from another class, also called derived class.
+
+```python
+class Human:
+
+    def name(self):
+        print('Name')
+
+    def age(self):
+        print('Age')    
+      
+
+class Batsman(Human):
+    def runs(self):
+        print("Runs scored")
+    
+    
+batsmn1 = Batsman()
+batsmn1.age()
+```
+# Sets
+
+Similar as List but it won't allow duplicate entries
+It prints only the unique entries
+It store in random order
+
+### Union and Intersection in sets
+
+set1.union(set2)
+set1.intersection(set2)
+
+### copy one set to another
+
+set2 = set1.copy()  or set2 = set(set1) -> when we add value to set2, it won't add it in set1
+
+set2 = set1 -> when we add value to set2, it will get added in set1 also.
