@@ -108,12 +108,12 @@ enhance the readability of the code and help the programmers to understand the c
 
 ## Multiple line comment
 
-```python
+
 ```
 Multiple line comment
 second line
 Third Line
 ``` 
-```
+
 
 
