@@ -1,20 +1,23 @@
-# Variable : ## to store single value 
-## Syntax
+# Variable : 
+## to store single value 
+### Syntax
 ```python
 var1="value1" 
 ```
 
-# List: ## to store multiple value and it's mutable 
+# List: 
+## to store multiple value and it's mutable 
 
-## Syntax
+### Syntax
 
 ```python
 name=["gomathi","Monika",123]
 ```
 
-# Tuple: ## to store multiple value and it's immutable 
+# Tuple: 
+## to store multiple value and it's immutable 
 
-## Syntax
+### Syntax
 
 ```python
 name=("gomathi","Monika",123)
