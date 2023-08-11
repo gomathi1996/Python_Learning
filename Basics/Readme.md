@@ -1,10 +1,28 @@
-Variable : to store single value <\br>
-eg: var1="value1" <\br>
+# Variable : to store single value 
+## Syntax
+```python
+var1="value1" <\br>
+```
 
-List: to store multiple value and it's mutable <\br>
-name=["gomathi","Monika",123] <\br>
+# List: to store multiple value and it's mutable 
 
-Tuple: to store multiple value and it's immutable <\br>
-name=("gomathi","Monika",123) <\br>
+## Syntax
 
-Functions: <\br>
+```python
+name=["gomathi","Monika",123]
+```
+
+# Tuple: to store multiple value and it's immutable 
+
+## Syntax
+
+```python
+name=("gomathi","Monika",123)
+```
+
+# Functions:
+ 
+Group of lines
+function name should be seperated by underscode for better readability
+
+function name starts with def keyword
