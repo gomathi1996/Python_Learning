@@ -7,7 +7,9 @@ def print_name(name,age):
 
 print_name("Dhoni",39)    # parameters
 
-def square(num):    
+def square(num):  
+    print("Before return statement")  
     return num * num  
+    print("After return statement")
    
 print(square(4))     # calling the function with no argument
