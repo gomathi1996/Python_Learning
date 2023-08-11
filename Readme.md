@@ -1,12 +1,12 @@
 # Variable : 
-## to store single value 
+### to store single value 
 ### Syntax
 ```python
 var1="value1" 
 ```
 
 # List: 
-## to store multiple value and it's mutable 
+### to store multiple value and it's mutable 
 
 ### Syntax
 
@@ -15,7 +15,7 @@ name=["gomathi","Monika",123]
 ```
 
 # Tuple: 
-## to store multiple value and it's immutable 
+### to store multiple value and it's immutable 
 
 ### Syntax
 
@@ -42,17 +42,19 @@ A return statement ends the execution of a function, and returns control to the 
 
 The IF statement is a decision-making statement that guides a program to make decisions based on specified criteria. The IF statement executes one set of code if a specified condition is met (TRUE) or another set of code evaluates to FALSE.
 
-### and - both statement should be true, 
-### or - either one of the statemnet should be true, 
-### not - opposite of that statement
-### if,elif,else  
+```bash
+and - both statement should be true, 
+or - either one of the statemnet should be true, 
+not - opposite of that statement
+if,elif,else 
+```
 
 # Dictionaries
 
 Store Key, value pair
 key should be unique and it can be any type
 
-## Syntax
+### Syntax
 
 ```python
 threewordToFull = {
@@ -100,13 +102,13 @@ for row in num:
 # Comments
 enhance the readability of the code and help the programmers to understand the code very carefully.
 
-## Single line comment
+### Single line comment
 
 ```python
 # Single line comment
 ```
 
-## Multiple line comment
+### Multiple line comment
 
 
 ```
@@ -208,11 +210,15 @@ It store in random order
 
 ### Union and Intersection in sets
 
+```bash
 set1.union(set2)
 set1.intersection(set2)
+```
 
 ### copy one set to another
 
+```bash
 set2 = set1.copy()  or set2 = set(set1) -> when we add value to set2, it won't add it in set1
 
 set2 = set1 -> when we add value to set2, it will get added in set1 also.
+```
