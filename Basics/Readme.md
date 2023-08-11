@@ -1,10 +1,10 @@
-# Variable : to store single value 
+# Variable : ## to store single value 
 ## Syntax
 ```python
-var1="value1" <\br>
+var1="value1" 
 ```
 
-# List: to store multiple value and it's mutable 
+# List: ## to store multiple value and it's mutable 
 
 ## Syntax
 
@@ -12,7 +12,7 @@ var1="value1" <\br>
 name=["gomathi","Monika",123]
 ```
 
-# Tuple: to store multiple value and it's immutable 
+# Tuple: ## to store multiple value and it's immutable 
 
 ## Syntax
 
@@ -21,7 +21,7 @@ name=("gomathi","Monika",123)
 ```
 
 # Functions:
- 
+
 Group of lines
 function name should be seperated by underscode for better readability
 
